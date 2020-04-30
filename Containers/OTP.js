@@ -108,7 +108,7 @@ class OTP extends React.Component {
               onPress={() => this.imagePress()}
               style={styles.editButton}>
               <View style={styles.infoContainer}>
-                <Text style={[styles.buttonText, {paddingRight: 10}]}>
+                <Text style={[styles.buttonText, {paddingRight: wp('1%')}]}>
                   {number}
                 </Text>
                 <Icon
